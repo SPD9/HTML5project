@@ -26,10 +26,30 @@
 	<td>Number</td><td><input name="number" type="number" min="0" max="100" step="5" value="50"></td>
 </tr>
 <tr> 
-	<td>Date</td><td><input name="date" type="date" > </td>
+	<td>Date</td><td><input name="date" type="date"></td>
 </tr>
+<tr>
+	<td>Week</td><td><input name="week" type="week"></td>
+	<td>Month</td><td><input name="month" type="month"></td>
+</tr>
+<tr>
+	<td>Time</td><td><input name="time" type="time"></td>
+</tr>
+<tr>
+	<td>Local DateTime </td><td><input name="datetimelocal" type="datetime-local"></td>
+</tr>
+<tr>
+	<td>Color</td><td><input name="color" type="color"></td>
+</tr>
+<tr>
+	<td> Search Query</td><td><input name="query" type="search"></td>
+</tr>
+
 </table>
-<input type="submit" value="submit"> Submit </input>
+<h4> Editable &lt;Comment&gt; Block </h4>
+<div id="div" style='border:solid blue; height:50px; width:400px;' contenteditable='true'></div>
+
+<input type="submit" value="submit" onclick="document.execCommand('italic, false, null);"> Submit </input>
 </form>
 
 </body>
