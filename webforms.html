@@ -2,6 +2,7 @@
 <html>
 <head> 
 <title> Web Form Example </title>
+<script src="html5JSscripts.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 	<td>Default</td><td><input name="name" placeholder="Enter your Nickname" autofocus></td>
 </tr>
 <tr> 
-	<td>URL</td><td><input name="url" type="url"></td>
+	<td>URL</td><td><input name="url" type="url"><input type="button" value="Go" onclick="createLink()"></td>
 </tr>
 <tr>
 	<td>Email</td><td><input name="email" type="email"></td>
@@ -33,7 +34,7 @@
 	<td>Month</td><td><input name="month" type="month"></td>
 </tr>
 <tr>
-	<td>Time</td><td><input name="time" type="time"></td>
+	<td>Time</td><td><input name="time" type="time" required></td>
 </tr>
 <tr>
 	<td>Local DateTime </td><td><input name="datetimelocal" type="datetime-local"></td>
